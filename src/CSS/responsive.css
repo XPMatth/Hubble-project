@@ -1,0 +1,111 @@
+@media(max-width:1440px) {
+    body {
+        content: "";
+        background-image: url(../images/bg-desktop.svg);
+        background-position: center;
+        background-size: cover;
+    }
+    .conteudo-principal {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media(max-width:768px){
+    body {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .cabecalho {
+        background-size: cover;
+    }
+    .conteudo-principal{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .conteudo-principal .info {
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .conteudo-principal .image {
+        padding: none;
+    }
+    .conteudo-principal .info .botao {
+        position: absolute;
+        bottom: 35px;
+    }
+
+    .conteudo-principal .image img {
+        max-width: 100%;
+        background-size: cover;
+        padding: 0px 0px 0px 0px;
+
+    }
+    .conteudo-principal .info .titulo{
+        text-align: center;
+    }
+    .conteudo-principal .info p{
+        font-size: 18px;
+        text-align: center;
+    }
+}
+@media(max-width:420px){
+
+    .conteudo-principal{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .cabecalho {
+        background-size: cover;
+    }
+    .conteudo-principal .info {
+        width: 330px;
+    }
+    .conteudo-principal .image img {
+        background-size: cover;
+    }
+    .conteudo-principal .info p{
+        font-size: 20px;
+        text-align: center;
+    }
+    .rodape {
+        display: flex;
+        justify-content: center;
+    }
+}
+@media(max-width:375px){
+    body {
+        content: "";
+        background-image: url(../images/bg-mobile.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .cabecalho {
+        background-size: cover;
+    }
+    .conteudo-principal{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .conteudo-principal .info {
+        width: 310px;
+    }
+    .conteudo-principal .image img {
+        background-size: cover;
+    }
+    .conteudo-principal .info .titulo {
+        text-align: center;
+        font-size: 40px;
+    }
+    .conteudo-principal .info p{
+        text-align: center;
+    }
+}
